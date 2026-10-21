@@ -1,35 +1,54 @@
-# <Your product name>
-
-> Fill this top section from your Examate project card on Day 1. Replace every line in angle brackets.
+# FirstWeek
 
 ## Problem
-<3–5 sentences: who struggles with what today, and what your product changes.>
+
+New developers often struggle to understand how FastAPI works internally when they join a software company. They may hesitate to ask senior developers basic questions, and general AI chatbots can sometimes provide incorrect technical answers. FirstWeek helps developers understand FastAPI by answering questions using its actual source code and documentation. It provides code references and responds with "I don't know" when sufficient evidence is unavailable.
 
 ## Who it is for
-<One or two real user types, for example "compliance officer at a gold-loan NBFC in Coimbatore".>
+
+- Fresher backend developers joining software companies that use FastAPI.
+- Junior Python developers who want to understand FastAPI's internal implementation.
 
 ## Signature feature
-<One sentence: the feature only your product has.>
+
+An AI assistant that answers FastAPI questions using actual source-code evidence and refuses to guess when the available code does not support an answer.
 
 ## Hardest problem (my interview story)
-<In your own words, from your project card.>
+
+The hardest problem is preventing the AI from generating incorrect answers about FastAPI internals. FirstWeek must retrieve the correct source code, provide evidence for its answers, and respond "I don't know" when the available information is insufficient. I will evaluate its faithfulness and hallucination rate using a 100-question test set.
 
 ## Dataset
+
 | Source | Link | Documents | Pages | Licence / terms |
 |---|---|---|---|---|
-| <name> | <url> | <n> | <n> | <licence> |
+| FastAPI source code and documentation | https://github.com/fastapi/fastapi | To be counted after indexing | To be counted after indexing | MIT License; verify the licence for individual files and dependencies |
 
 ## 10 real questions
+
 See [docs/QUESTIONS.md](docs/QUESTIONS.md).
 
 ## Run it
+
 ```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
 pip install -r requirements-dev.txt
-cp .env.example .env                                 # Windows: copy .env.example .env
+
+# Windows
+copy .env.example .env
+
 uvicorn app.main:app --reload
-curl localhost:8000/health
+```
+
+Check the health endpoint:
+
+```bash
+curl http://localhost:8000/health
 ```
 
 ## Live link
-<Added in Week 2>
+
+in Week 2.
