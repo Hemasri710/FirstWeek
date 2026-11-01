@@ -21,7 +21,7 @@ The hardest problem is preventing the AI from generating incorrect answers about
 
 | Source | Link | Documents | Pages | Licence / terms |
 |---|---|---|---|---|
-| FastAPI source code and documentation | https://github.com/fastapi/fastapi | To be counted after indexing | To be counted after indexing | MIT License; verify the licence for individual files and dependencies |
+| FastAPI source code and documentation | [https://github.com/fastapi/fastapi](https://github.com/fastapi/fastapi) | N files collected so far (growing to 1,100+ in Week 3) | P pages | MIT License |
 
 ## 10 real questions
 
@@ -51,4 +51,6 @@ curl http://localhost:8000/health
 
 ## Live link
 
-in Week 2.
+ https://firstweek-7mj2.onrender.com
+Health Check: https://firstweek-7mj2.onrender.com/health
+API:https://firstweek-7mj2.onrender.com/docs
