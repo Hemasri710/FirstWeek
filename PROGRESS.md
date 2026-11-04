@@ -11,11 +11,11 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 - [ ] Tag week-1 pushed
 
 ## Week 2 (tag week-2 by Fri 30 Oct)
-- [ ] POST /chat calls an LLM and returns structured JSON
-- [ ] Streaming, timeouts, retry and a fallback model
-- [ ] Cost log + GET /usage
-- [ ] Docker Compose (API + Postgres/pgvector) runs
-- [ ] CI green, live link in README
+- [X] POST /chat calls an LLM and returns structured JSON
+- [X] Streaming, timeouts, retry and a fallback model
+- [X] Cost log + GET /usage
+- [X] Docker Compose (API + Postgres/pgvector) runs
+- [] CI green, live link in README
 - [ ] Tag week-2 pushed
 
 ## Week 3 (tag week-3 by Fri 6 Nov)

@@ -3,6 +3,7 @@
 Page rule: code = 1 page per 50 lines, docs = 1 page per 500 words.
 Run from the repo root:  python tools/build_dataset.py
 """
+
 import datetime
 import html
 import math
@@ -79,7 +80,7 @@ for name, url in DOCS:
 lines = [
     "# Dataset",
     "",
-        "Source: https://github.com/fastapi/fastapi (MIT licence).",
+    "Source: https://github.com/fastapi/fastapi (MIT licence).",
     "Page rule: code = 1 page per 50 lines, docs = 1 page per 500 words.",
     "",
     "| File | Source URL | Pages | Licence / terms | Downloaded on |",

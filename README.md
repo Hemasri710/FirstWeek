@@ -49,6 +49,13 @@ Check the health endpoint:
 curl http://localhost:8000/health
 ```
 
+## Run with Docker
+```bash
+cp .env.example .env
+docker compose up --build
+curl localhost:8000/ready
+```
+
 ## Live link
 
  https://firstweek-7mj2.onrender.com
